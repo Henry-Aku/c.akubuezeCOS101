@@ -7,7 +7,7 @@ fn checker(){
     io::stdin().read_line(&mut input).expect("Failed to read input");
     let ch:char = input.trim().parse().expect("Invalid input");
 
-    if ch >- '0' && ch <- '9'{
+    if ch >= '0' && ch <= '9'{
         println!("character '{}' is a digit", ch);
     }
     else {
